@@ -24,9 +24,9 @@ services:
     - ./src/mariadb:/var/lib/mysql
    environment:
     MYSQL_RANDOM_ROOT_PASSWORD: 1
-    MYSQL_DATABASE: dev
-    MYSQL_USER: dev
-    MYSQL_PASSWORD: dev123
+    MYSQL_DATABASE: devops
+    MYSQL_USER: devops
+    MYSQL_PASSWORD: dev123456
    expose:
    - 3306
 
@@ -36,8 +36,8 @@ services:
    environment:
     PMA_ARBITRARY: 1
     PMA_HOST: db
-    PMA_USER: dev
-    PMA_PASSWORD: dev123
+    PMA_USER: devops
+    PMA_PASSWORD: dev123456
     PHP_UPLOAD_MAX_FILESIZE: 1G
     PHP_MAX_INPUT_VARS: 1G
    restart: always
