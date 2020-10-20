@@ -1,6 +1,5 @@
 # docker-webserver
 
-<<<<<<< HEAD
 [![Jonatas Ferreira](https://ferreirajonatas.com/wp-content/uploads/2020/02/jf.png)](https://ferreirajonatas.com)
 
  Web server installation repository with:
@@ -31,8 +30,4 @@ MIT
 
 [//]: #
 [Jonatas ferreira]: <mailto: jonatas.sferreira@outlook.com>
-=======
-This library has the function to create Web server installation repository with Nginx, phpMyAdmin, MariaDB and PHP7-FPM
 
-To install the library, run the following command:
->>>>>>> master
